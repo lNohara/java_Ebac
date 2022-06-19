@@ -35,7 +35,7 @@ public class TesteTarefaStream {
 
         // valida a quantidade de mulheres
         int contantoAsMulheres = testeTarefaStream.contantoAsMulheres(pessoas);
-        Assert.assertEquals(contantoAsMulheres, contantoAsMulheres);
+        Assert.assertEquals(3, contantoAsMulheres);
         Assert.assertNotEquals(2, contantoAsMulheres);
         Assert.assertNotEquals(4, contantoAsMulheres);
     }
