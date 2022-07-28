@@ -21,30 +21,4 @@ public class ClienteService extends GenericService<Cliente, Long> implements ICl
         this.clienteDAO = clienteDAO;
     }*/
 
-
-    @Override
-    public Boolean cadastrar(Cliente entity) {
-        return this.dao.cadastrar(entity);
-    }
-
-    @Override
-    public void excluir(Long valor) {
-        super.excluir(valor);
-        this.dao.excluir(valor);
-    }
-
-    @Override
-    public void alterar(Cliente entity) {
-        this.dao.alterar(entity);
-    }
-
-    @Override
-    public Cliente consultar(Long valor) {
-        return this.dao.consultar(valor);
-    }
-
-    @Override
-    public Collection<Cliente> buscarTodos() {
-        return this.dao.buscarTodos();
-    }
 }
