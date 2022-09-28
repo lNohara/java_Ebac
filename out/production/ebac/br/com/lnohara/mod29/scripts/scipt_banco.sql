@@ -62,7 +62,7 @@ INSERT INTO tb_produto2 VALUES
 (
     nextval('SQ_PRODUTO_2'),
     'Tubaína Pet, 600ML',
-    111111111,
+    22222222,
     7.80
 ) ;
 
