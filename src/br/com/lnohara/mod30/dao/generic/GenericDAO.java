@@ -121,7 +121,6 @@ public abstract class GenericDAO<T extends Persistente, E extends Serializable> 
 
     @Override
     public void alterar(T entity) throws TipoChaveNaoEncontradaException, DAOException {
-
         Connection connection = getConnection();
         PreparedStatement stm = null;
         try {

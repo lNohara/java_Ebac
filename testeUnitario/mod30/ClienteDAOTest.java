@@ -48,6 +48,7 @@ public class ClienteDAOTest {
         cliente.setEstado("SP");
         cliente.setNumero(10);
         cliente.setTel(1199999999L);
+        cliente.setGenero("M");
         clienteDao.cadastrar(cliente);
 
         Cliente clienteConsultado = clienteDao.consultar(cliente.getCpf());
@@ -66,6 +67,7 @@ public class ClienteDAOTest {
         cliente.setEstado("SP");
         cliente.setNumero(10);
         cliente.setTel(1199999999L);
+        cliente.setGenero("M");
         Boolean retorno = clienteDao.cadastrar(cliente);
         Assert.assertTrue(retorno);
 
@@ -86,6 +88,7 @@ public class ClienteDAOTest {
         cliente.setEstado("SP");
         cliente.setNumero(10);
         cliente.setTel(1199999999L);
+        cliente.setGenero("M");
         Boolean retorno = clienteDao.cadastrar(cliente);
         Assert.assertTrue(retorno);
 
@@ -107,18 +110,21 @@ public class ClienteDAOTest {
         cliente.setEstado("SP");
         cliente.setNumero(10);
         cliente.setTel(1199999999L);
+        cliente.setGenero("M");
         Boolean retorno = clienteDao.cadastrar(cliente);
         Assert.assertTrue(retorno);
 
         Cliente clienteConsultado = clienteDao.consultar(cliente.getCpf());
         Assert.assertNotNull(clienteConsultado);
 
-        clienteConsultado.setNome("Rodrigo Pires");
+        clienteConsultado.setNome("Rafaela Pires");
+//        clienteConsultado.setGenero("F");
         clienteDao.alterar(clienteConsultado);
 
         Cliente clienteAlterado = clienteDao.consultar(clienteConsultado.getCpf());
         Assert.assertNotNull(clienteAlterado);
-        Assert.assertEquals("Rodrigo Pires", clienteAlterado.getNome());
+        Assert.assertEquals("Rafaela Pires", clienteAlterado.getNome());
+//        Assert.assertEquals("F", clienteAlterado.getGenero());
 
         clienteDao.excluir(cliente.getCpf());
         clienteConsultado = clienteDao.consultar(cliente.getCpf());
@@ -135,17 +141,19 @@ public class ClienteDAOTest {
         cliente.setEstado("SP");
         cliente.setNumero(10);
         cliente.setTel(1199999999L);
+        cliente.setGenero("M");
         Boolean retorno = clienteDao.cadastrar(cliente);
         Assert.assertTrue(retorno);
 
         Cliente cliente1 = new Cliente();
         cliente1.setCpf(56565656569L);
-        cliente1.setNome("Rodrigo");
-        cliente1.setCidade("São Paulo");
-        cliente1.setEnd("End");
+        cliente1.setNome("Karla Silva");
+        cliente1.setCidade("São Vicente");
+        cliente1.setEnd("Avenida das Marés");
         cliente1.setEstado("SP");
-        cliente1.setNumero(10);
-        cliente1.setTel(1199999999L);
+        cliente1.setNumero(26);
+        cliente1.setTel(112233445566L);
+        cliente.setGenero("F");
         Boolean retorno1 = clienteDao.cadastrar(cliente1);
         Assert.assertTrue(retorno1);
 

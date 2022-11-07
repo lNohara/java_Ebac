@@ -28,10 +28,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Postgres/postgresql-42.4.2.jar!/" />
+          <root url="jar://$USER_HOME$/Dropbox/java/jbdc/08/postgresql-42.5.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

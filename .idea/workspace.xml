@@ -5,50 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2df08a5-0cd4-4945-9179-819e24b75415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/anotacao/ColunaTabela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/anotacao/Tabela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/anotacao/TipoChave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/VendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ClienteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ProdutoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/VendaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/IGenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/SingletonMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/interfaces/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/interfaces/IProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/interfaces/IVendaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/interfaces/Persistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/ProdutoQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Venda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/exceptions/DAOException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/exceptions/TableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/IClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/IProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/generic/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/services/generic/IGenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/sql/script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/ClienteDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/ClienteServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/VendaDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/dao/ClienteDaoMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testeUnitario/mod30/dao/ProdutoDaoMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/ConnectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/scripts/scipt_banco.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/scripts/scipt_banco.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebac.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ClienteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ClienteFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ClienteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeUnitario/mod30/ClienteDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testeUnitario/mod30/ClienteDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeUnitario/mod30/ClienteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testeUnitario/mod30/ClienteServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,10 +56,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nohara/Postgres/postgresql-42.4.2.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nohara/Dropbox/java/jbdc/08/postgresql-42.5.0.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -97,7 +70,7 @@
       <recent name="br.com.lnohara.mod29.dao.generic.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AllTests">
+  <component name="RunManager" selected="JUnit.ClienteDAOTest">
     <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
@@ -113,63 +86,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod29.domain.*" />
+          <option name="PATTERN" value="mod30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod29.domain" />
-      <option name="MAIN_CLASS_NAME" value="mod29.domain.ClienteTest" />
+      <option name="PACKAGE_NAME" value="mod30" />
+      <option name="MAIN_CLASS_NAME" value="mod30.ClienteDAOTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOTest.alterarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod29.domain.*" />
+          <option name="PATTERN" value="mod30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod29.domain" />
-      <option name="MAIN_CLASS_NAME" value="mod29.domain.ProdutoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutoTest.testCreateProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ebac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mod29.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mod29.domain" />
-      <option name="MAIN_CLASS_NAME" value="mod29.domain.ProdutoTest" />
-      <option name="METHOD_NAME" value="testCreateProduto" />
+      <option name="PACKAGE_NAME" value="mod30" />
+      <option name="MAIN_CLASS_NAME" value="mod30.ClienteDAOTest" />
+      <option name="METHOD_NAME" value="alterarCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.testReadProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod29.domain.*" />
+          <option name="PATTERN" value="mod30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod29.domain" />
-      <option name="MAIN_CLASS_NAME" value="mod29.domain.ProdutoTest" />
-      <option name="METHOD_NAME" value="testReadProduto" />
+      <option name="PACKAGE_NAME" value="mod30" />
+      <option name="MAIN_CLASS_NAME" value="mod30.ClienteServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServiceTest.excluirCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod30" />
+      <option name="MAIN_CLASS_NAME" value="mod30.ClienteServiceTest" />
+      <option name="METHOD_NAME" value="excluirCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClienteDAOTest" />
+        <item itemvalue="JUnit.ClienteServiceTest" />
+        <item itemvalue="JUnit.ClienteServiceTest.excluirCliente" />
+        <item itemvalue="JUnit.ClienteDAOTest.alterarCliente" />
         <item itemvalue="JUnit.AllTests" />
-        <item itemvalue="JUnit.ProdutoTest" />
-        <item itemvalue="JUnit.ClienteTest" />
-        <item itemvalue="JUnit.ProdutoTest.testReadProduto" />
-        <item itemvalue="JUnit.ProdutoTest.testCreateProduto" />
       </list>
     </recent_temporary>
   </component>
@@ -220,15 +193,29 @@
           <line>44</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/GenericDAO.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="br.com.lnohara.mod29.domain.Produto" memberName="id" />
+        <PinnedItemInfo parentTag="org.postgresql.core.v3.SimpleParameterList" memberName="encoded" />
+        <PinnedItemInfo parentTag="org.postgresql.core.v3.SimpleParameterList" memberName="transferModeRegistry" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_Ebac$ClienteServiceTest.ic" NAME="ClienteServiceTest Coverage Results" MODIFIED="1666182128809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mod30.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/java_Ebac$ClienteTest_testCliente.ic" NAME="ClienteTest.testCliente Coverage Results" MODIFIED="1661911574621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>mod29.domain.*</FILTER>
     </SUITE>
