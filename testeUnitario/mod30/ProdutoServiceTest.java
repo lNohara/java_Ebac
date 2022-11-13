@@ -28,9 +28,9 @@ public class ProdutoServiceTest {
     public void init() {
         produto = new Produto();
         produto.setCodigo("A1");
-        produto.setDescricao("Produto 1");
-        produto.setNome("Produto 1");
-        produto.setValor(BigDecimal.TEN);
+        produto.setDescricao("Refrigerante zero");
+        produto.setNome("Guaraná zero lata 350");
+        produto.setValor(BigDecimal.valueOf(4.90));
     }
 
     @Test
@@ -51,10 +51,12 @@ public class ProdutoServiceTest {
     }
 
     @Test
-    public void alterarCliente() throws TipoChaveNaoEncontradaException, DAOException {
-        produto.setNome("Rodrigo Pires");
+    public void alterar() throws TipoChaveNaoEncontradaException, DAOException {
+        produto.setNome("Everlast lata 435ml");
+        produto.setValidade("10/05/2024");
         produtoService.alterar(produto);
 
-        Assert.assertEquals("Rodrigo Pires", produto.getNome());
+        Assert.assertEquals("Everlast lata 435ml", produto.getNome());
+        Assert.assertEquals("10/05/2024", produto.getValidade());
     }
 }

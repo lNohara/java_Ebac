@@ -28,6 +28,19 @@ public class Venda implements Persistente {
         }
     }
 
+    public enum TipoEntrega {
+        TRANSPORTADORA, CORREIOS, RETIRAR;
+
+        public static TipoEntrega getByName(String value) {
+            for (TipoEntrega tipoEntrega : TipoEntrega.values()) {
+                if (tipoEntrega.name().equals(value)) {
+                    return tipoEntrega;
+                }
+            }
+            return null;
+        }
+    }
+
     @ColunaTabela(dbName = "id", setJavaName = "setId")
     private Long id;
 
@@ -49,6 +62,9 @@ public class Venda implements Persistente {
 
     @ColunaTabela(dbName = "status_venda", setJavaName = "setStatus")
     private Status status;
+
+    @ColunaTabela(dbName = "tipo_entrega", setJavaName = "setTipoEntrega")
+    private TipoEntrega tipoEntrega;
 
     public Venda() {
         produtos = new HashSet<>();
@@ -173,6 +189,11 @@ public class Venda implements Persistente {
         this.produtos = produtos;
     }
 
+    public TipoEntrega getTipoEntrega() {
+        return tipoEntrega;
+    }
 
-
+    public void setTipoEntrega(TipoEntrega tipoEntrega) {
+        this.tipoEntrega = tipoEntrega;
+    }
 }
