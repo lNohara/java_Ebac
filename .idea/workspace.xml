@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2df08a5-0cd4-4945-9179-819e24b75415" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ProdutoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/sql/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/sql/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/VendaDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/VendaDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ProdutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/factory/ProdutoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/domain/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/sql/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/sql/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testeUnitario/mod30/ProdutoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeUnitario/mod30/VendaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testeUnitario/mod30/VendaDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,16 +185,6 @@
           <url>file://$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/GenericDAO.java</url>
           <line>130</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/testeUnitario/mod30/ProdutoDAOTest.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/testeUnitario/mod30/ProdutoDAOTest.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
