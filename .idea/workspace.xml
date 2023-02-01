@@ -5,7 +5,363 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2df08a5-0cd4-4945-9179-819e24b75415" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/dao/CursoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/dao/ICursoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/dao/IMatriculaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/dao/MatriculaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/domain/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/lnohara/mod32/domain/Matricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testeUnitario/mod32/CursoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testeUnitario/mod32/MatriculaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ClienteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ClienteDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ClienteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ClienteServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebac.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod04/OlaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod04/OlaMundo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod07/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod07/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod07/DogTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod07/DogTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/Aula3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/tarefa/AtividadeMod8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod08/tarefa/AtividadeMod8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/Aula3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/tarefa/ExercicioMod9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod09/tarefa/ExercicioMod9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/Aula3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/tarefa/ExercicioMod10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod10/tarefa/ExercicioMod10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/Aula4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/ComparaNotaAluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/ComparaNotaAluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/TestePerformanceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/TestePerformanceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/tarefa/ExeciocioMod11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/tarefa/ExeciocioMod11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/tarefa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod11/tarefa/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/Aula03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/tarefa/ExercicioMod12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/tarefa/ExercicioMod12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/tarefa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod12/tarefa/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Aula01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Aula01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Caminhao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Caminhao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/CanetaEsferografica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/CanetaEsferografica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/CarroPasseio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/CarroPasseio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Giz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Giz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/ICaneta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/ICaneta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/ICarro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/ICarro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Lapis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula01/Lapis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Assalariado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Assalariado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Comissionado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Comissionado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Empregado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Horista.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Horista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Programa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula02/Programa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Comprador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Comprador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Programa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Programa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Venda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Vendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/agrecacao/Vendedor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/aula03/composicao/ContaPoupanca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/PessoaFisica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/PessoaFisica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/PessoaJuridica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/PessoaJuridica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/Programa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod13/tarefa/Programa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/ClienteMapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/ClienteMapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/console/dao/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/dao/ClienteMapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/dao/ClienteMapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/swing/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/CadastroClienteSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/CadastroClienteSwing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod14/telaPrincipal/TelaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForRegularDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForRegularDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberBlackDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberBlackDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberComfortDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberComfortDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberXDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/CarFactoryForUberXDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2011.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2011.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2015.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Corolla2015.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Linea2011.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Linea2011.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Linea2012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/Linea2012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2011.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2011.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2015.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/RS2015.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingleonPropriedade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingleonPropriedade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized$ThreadBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized$ThreadBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized$ThreadFoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized$ThreadFoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeSyncronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread$ThreadBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread$ThreadBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread$ThreadFoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread$ThreadFoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/DemoSingletonPropriedadeThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/SingletonPropriedadeSyncronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/SingletonPropriedadeSyncronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/SingtonPropriedade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula02/SingtonPropriedade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/BugerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/BugerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/Burger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/Burger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/BurgerRestaurantDirector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/BurgerRestaurantDirector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/CheeseBurgerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/CheeseBurgerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/VeganBurguerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula03/VeganBurguerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Audi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/CompanyCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/CompanyCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Tesla.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Tesla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Toyota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Toyota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Volkswagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod15/aula04/Volkswagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Advogado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Advogado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Bombeiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Bombeiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Medico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Medico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Policial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Policial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Trabalhador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula01/Trabalhador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Jornalist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Jornalist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Newspaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Newspaper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula02/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/Apartamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/Apartamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/ApartamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/ApartamentoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/IApartamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula03/IApartamentoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBoxAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBoxAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBoxFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/DropBoxFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDriveAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDriveAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDriveFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/GoogleDriveFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/Persistencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/aula04/Persistencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/ITaxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/ITaxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/PayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/PayService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/TaxServiceAC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/TaxServiceAC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/TaxServiceSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod16/tarefa/TaxServiceSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/App2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/App2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/SingletonMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/SingletonMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/ClienteMapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/ClienteMapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/IProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/IProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/generic/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/generic/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/generic/IGenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/dao/generic/IGenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Persistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Persistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/ClienteFabrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/ClienteFabrica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/FabricaPersistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/FabricaPersistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/IFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/IFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/ProdutoFabrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/aula03/fabrica/ProdutoFabrica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Fruta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Fruta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Maca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/fruta/Maca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/Audi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/RoadsterTTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/RoadsterTTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/SedanA4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/SedanA4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/SportbackA3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Audi/SportbackA3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Camaro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Camaro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Chevrolet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Chevrolet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Spin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Chevrolet/Spin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Commander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Commander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/DemoGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/DemoGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Jeep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Jeep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Renegade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod17/tarefa/Jeep/Renegade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula02/ClasseComAnotacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula02/ClasseComAnotacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula02/PrimeraAnotacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula02/PrimeraAnotacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/AppExemploThrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/AppExemploThrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/ExemploThrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/ExemploThrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/ExemplosRxceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/ExemplosRxceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/LimiteSaqueException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula04/LimiteSaqueException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/APPCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/APPCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteNaoEncontrado2Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteNaoEncontrado2Exception.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteNaoEncontradoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteNaoEncontradoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/aula05/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/tarefa/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/tarefa/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/tarefa/Tabela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod18/tarefa/Tabela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/NomeDaTabela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/NomeDaTabela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/Tabela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/anotation/Tabela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/IProdutoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/IProdutoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/ProdutoReflection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/ProdutoReflection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/ReflectionClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/ReflectionClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/anotacao/ChavePrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula01e02/anotacao/ChavePrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula03/AppReflections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula03/AppReflections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula03/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula03/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/App2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/App2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/SingletonMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/SingletonMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/annotation/TipoChave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/annotation/TipoChave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/ClienteMapDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/ClienteMapDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/IProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/IProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/generic/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/generic/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/generic/IGenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/dao/generic/IGenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Persistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Persistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/ClienteFabrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/ClienteFabrica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/FabricaPersistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/FabricaPersistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/IFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/IFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/ProdutoFabrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod19/aula04/fabrica/ProdutoFabrica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod20/Aula03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod20/Aula03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod20/IntBinaryOperatorClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod20/IntBinaryOperatorClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/Exercicio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/Exercicio$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/Exercicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/Exercicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/AnonimasTeste$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/AnonimasTeste$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/AnonimasTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/AnonimasTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula04$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula04$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Aula05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Finder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/Finder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/MyEventConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod21/aula04/MyEventConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/CreandoStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/CreandoStreams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosAllMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosAllMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosCollect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosCollect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosDistinct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosDistinct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosFilter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosFilter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosForEach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosForEach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosLimit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosOptional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosOptional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosSorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/ExemplosSorted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/tarefa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/tarefa/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/tarefa/TarefaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod22/tarefa/TarefaStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/TesteCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/TesteCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/tarefa/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/tarefa/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/tarefa/TarefaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod23/tarefa/TarefaStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/ClienteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/ClienteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/ContratoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/ContratoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/inteterfaces/IClienteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/inteterfaces/IClienteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/inteterfaces/IContratoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/inteterfaces/IContratoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/mocks/ClienteDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/mocks/ClienteDaoMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/mocks/ContratoDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/dao/mocks/ContratoDaoMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/ContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/ContratoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/IContratoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod24/service/IContratoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/annotation/TipoChave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/annotation/TipoChave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/IGenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/IGenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/SingletonMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/dao/generics/SingletonMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/domain/Persistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/domain/Persistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/exception/DadosInvalidosException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/exception/DadosInvalidosException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/exception/TipoChaveNaoEncontradaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/exception/TipoChaveNaoEncontradaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/IClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/IClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/generic/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/generic/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/generic/IGenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod25/services/generic/IGenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/dao/cliente/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/dao/cliente/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/dao/cliente/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/dao/cliente/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/produto/IProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/produto/IProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/produto/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/dao/generic/jdbc/produto/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod29/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/ColunaTabela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/ColunaTabela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/Tabela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/Tabela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/TipoChave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/anotacao/TipoChave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/ProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/VendaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/VendaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ClienteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ClienteFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoQuantidadeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/ProdutoQuantidadeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/VendaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/factory/VendaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/IGenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/IGenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/SingletonMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/SingletonMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/generic/jdbc/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IClienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IClienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IProdutoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IProdutoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IVendaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/IVendaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/Persistente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/dao/interfaces/Persistente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/ProdutoQuantidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/ProdutoQuantidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda$TipoEntrega.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda$TipoEntrega.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/domain/Venda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/DAOException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/DAOException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/MaisDeUmRegistroException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/MaisDeUmRegistroException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TableException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TableException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TipoChaveNaoEncontradaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TipoChaveNaoEncontradaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TipoElementoNaoConhecidoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/exceptions/TipoElementoNaoConhecidoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/ClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/IClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/IClienteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/IProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/IProdutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/ProdutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/generic/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/generic/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/generic/IGenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ebac/br/com/lnohara/mod30/services/generic/IGenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/AllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/AllTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/PrimeiroTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/PrimeiroTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/SegundoTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/SegundoTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/AllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/AllTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/TestePessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/TestePessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/TesteTarefaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod23/tarefa/TesteTarefaStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/AllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/AllTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/ClienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/ClienteServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/ContratoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod24/ContratoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/dao/ClienteDAOMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/dao/ClienteDAOMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/domain/ClienteDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/domain/ClienteDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/domain/ClienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/br/com/lnohara/mod25/domain/ClienteServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod29/domain/ClienteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod29/domain/ClienteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod29/domain/ProdutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod29/domain/ProdutoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/AllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/AllTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ClienteServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/ProdutoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/VendaDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/VendaDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/dao/ClienteDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/dao/ClienteDaoMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ebac/mod30/dao/ProdutoDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ebac/mod30/dao/ProdutoDaoMock.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +399,28 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/nohara/git/hub/java_Ebac/src&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/nohara/Dropbox/java/jbdc/08/postgresql-42.5.0.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mod32" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testeUnitario" />
+      <recent name="$PROJECT_DIR$/src/test/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/test/resources " />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/testeUnitario/mod32" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod32" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.lnohara.mod30.dao.generic" />
     </key>
@@ -57,79 +428,81 @@
       <recent name="br.com.lnohara.mod29.dao.generic.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoDAOTest">
-    <configuration name="ProdutoDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CursoTest.consultarTodosVazio">
+    <configuration name="CursoTest.atualizarComMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod30.*" />
+          <option name="PATTERN" value="mod32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod30" />
-      <option name="MAIN_CLASS_NAME" value="mod30.ProdutoDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutoDAOTest.alterarProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ebac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mod30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mod30" />
-      <option name="MAIN_CLASS_NAME" value="mod30.ProdutoDAOTest" />
-      <option name="METHOD_NAME" value="alterarProduto" />
+      <option name="PACKAGE_NAME" value="mod32" />
+      <option name="MAIN_CLASS_NAME" value="mod32.CursoTest" />
+      <option name="METHOD_NAME" value="atualizarComMerge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoDAOTest.buscarTodos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CursoTest.consultarPorCodigo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod30.*" />
+          <option name="PATTERN" value="mod32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod30" />
-      <option name="MAIN_CLASS_NAME" value="mod30.ProdutoDAOTest" />
-      <option name="METHOD_NAME" value="buscarTodos" />
+      <option name="PACKAGE_NAME" value="mod32" />
+      <option name="MAIN_CLASS_NAME" value="mod32.CursoTest" />
+      <option name="METHOD_NAME" value="consultarPorCodigo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CursoTest.consultarTodos (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod30.*" />
+          <option name="PATTERN" value="mod32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod30" />
-      <option name="MAIN_CLASS_NAME" value="mod30.ProdutoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="mod32" />
+      <option name="MAIN_CLASS_NAME" value="mod32.CursoTest" />
+      <option name="METHOD_NAME" value="consultarTodos" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoServiceTest.excluir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CursoTest.consultarTodosVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ebac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mod30.*" />
+          <option name="PATTERN" value="mod32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mod30" />
-      <option name="MAIN_CLASS_NAME" value="mod30.ProdutoServiceTest" />
+      <option name="PACKAGE_NAME" value="mod32" />
+      <option name="MAIN_CLASS_NAME" value="mod32.CursoTest" />
+      <option name="METHOD_NAME" value="consultarTodosVazio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CursoTest.excluir" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mod32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mod32" />
+      <option name="MAIN_CLASS_NAME" value="mod32.CursoTest" />
       <option name="METHOD_NAME" value="excluir" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,11 +511,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProdutoDAOTest" />
-        <item itemvalue="JUnit.ProdutoDAOTest.alterarProduto" />
-        <item itemvalue="JUnit.ProdutoDAOTest.buscarTodos" />
-        <item itemvalue="JUnit.ProdutoServiceTest.excluir" />
-        <item itemvalue="JUnit.ProdutoServiceTest" />
+        <item itemvalue="JUnit.CursoTest.consultarTodosVazio" />
+        <item itemvalue="JUnit.CursoTest.excluir" />
+        <item itemvalue="JUnit.CursoTest.atualizarComMerge" />
+        <item itemvalue="JUnit.CursoTest.consultarTodos (1)" />
+        <item itemvalue="JUnit.CursoTest.consultarPorCodigo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +562,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
           <option name="timeStamp" value="13" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="25" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
