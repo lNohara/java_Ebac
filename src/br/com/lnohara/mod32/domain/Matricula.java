@@ -24,6 +24,12 @@ import java.time.Instant;
         @Column(name = "status", nullable = false)
         private String status;
 
+        @ManyToOne
+        @JoinColumn(name = "id_curso_fk",
+                foreignKey = @ForeignKey(name = "fk_curso_matricula"),
+                referencedColumnName = "id", nullable = false)
+        private Curso curso;
+
 
         public Long getId() {
             return id;
@@ -63,6 +69,15 @@ import java.time.Instant;
 
         public void setStatus(String status) {
             this.status = status;
+        }
+
+
+        public Curso getCurso() {
+            return curso;
+        }
+
+        public void setCurso(Curso curso) {
+            this.curso = curso;
         }
 
     }

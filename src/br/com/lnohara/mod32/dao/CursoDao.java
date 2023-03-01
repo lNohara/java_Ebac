@@ -10,6 +10,7 @@ import java.util.List;
 
 public class CursoDao implements ICursoDao {
 
+
     EntityManagerFactory entityManagerFactory =
             Persistence.createEntityManagerFactory("ExemploJPA");
     EntityManager entityManager = entityManagerFactory.createEntityManager();
@@ -21,12 +22,17 @@ public class CursoDao implements ICursoDao {
 
     @Override
     public Curso cadastrar(Curso curso) {
-        entityManager.getTransaction().begin();
-        entityManager.persist(curso);
-        entityManager.getTransaction().commit();
+        EntityManagerFactory entityManagerFactory =
+                Persistence.createEntityManagerFactory("ExemploJPA");
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
 
-        closeConnection();
-
+        try {
+            entityManager.getTransaction().begin();
+            entityManager.persist(curso);
+            entityManager.getTransaction().commit();
+        } finally {
+            closeConnection();
+        }
         return curso;
     }
 
@@ -87,7 +93,7 @@ public class CursoDao implements ICursoDao {
         }
 
     }
-
+    @Override
     public void deletar(String codigo) {
         try {
             Curso curso = getByCodigo(codigo);
@@ -96,6 +102,21 @@ public class CursoDao implements ICursoDao {
         } finally {
             entityManager.close();
         }
+    }
+
+    @Override
+    public void excluir(Curso curso) {
+        EntityManagerFactory entityManagerFactory =
+                Persistence.createEntityManagerFactory("ExemploJPA");
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+
+        entityManager.getTransaction().begin();
+        curso = entityManager.merge(curso);
+        entityManager.remove(curso);
+        entityManager.getTransaction().commit();
+
+        entityManager.close();
+        entityManagerFactory.close();
     }
 
 }

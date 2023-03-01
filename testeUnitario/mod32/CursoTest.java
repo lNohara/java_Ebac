@@ -3,12 +3,15 @@ package mod32;
 import br.com.lnohara.mod32.dao.CursoDao;
 import br.com.lnohara.mod32.dao.ICursoDao;
 import br.com.lnohara.mod32.domain.Curso;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
 
+import static org.junit.Assert.*;
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CursoTest {
 
     private ICursoDao cursoDao;
@@ -19,7 +22,7 @@ public class CursoTest {
 
 
     @Test
-    public void cadsatrar() {
+    public void aCadsatrar() {
         Curso curso = new Curso();
         curso.setCodigo("A1");
         curso.setDescricao("CURSO TESTE");
@@ -33,7 +36,7 @@ public class CursoTest {
         assertEquals("Curso de java Backend", curso.getNome());
     }
     @Test
-    public void consultarPorCodigo() {
+    public void bConsultarPorCodigo() {
         Curso curso;
         curso = cursoDao.consultarPorCodigo("A1");
 
@@ -45,7 +48,7 @@ public class CursoTest {
     }
 
     @Test
-    public void consultarTodos(){
+    public void cConsultarTodos(){
 
         List allCursos = cursoDao.consultarTodos();
 
@@ -54,7 +57,7 @@ public class CursoTest {
     }
 
     @Test
-    public void atualizarComMerge() {
+    public void dAtualizarComMerge() {
         Curso curso;
         curso = cursoDao.merge("A1", "Curso de Java Script", "Fundamentos do Java Scipt");
 
@@ -67,13 +70,12 @@ public class CursoTest {
 
 
     @Test
-    public void excluir() {
-        Curso curso;
+    public void eExcluir() {
         cursoDao.deletar("A1");
     }
 
     @Test
-    public void consultarTodosVazio(){
+    public void fConsultarTodosVazio(){
 
         List allCursos = cursoDao.consultarTodos();
 

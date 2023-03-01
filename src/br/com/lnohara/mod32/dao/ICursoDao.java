@@ -18,4 +18,6 @@ public interface ICursoDao {
     public void deletar(String codigo);
 
     public Curso merge(String codigo, String nome, String descricao);
+
+    void excluir(Curso curso);
 }
